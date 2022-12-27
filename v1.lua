@@ -1379,7 +1379,7 @@ local function getObjGen()
             Gui.UIGradient_5.Color =
                 ColorSequence.new {
                 ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(163, 163, 163))
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(134, 142, 255))
             }
             Gui.UIGradient_5.Rotation = 45
             Gui.UIGradient_5.Parent = Gui.Logo
