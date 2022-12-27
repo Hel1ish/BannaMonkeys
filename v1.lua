@@ -892,7 +892,7 @@ local function getObjGen()
             Gui.Icon_2.BackgroundTransparency = 1.000
             Gui.Icon_2.Size = UDim2.new(1, 0, 1, 0)
             Gui.Icon_2.ZIndex = 111
-            Gui.Icon_2.Image = "rbxassetid://11942753193"
+            Gui.Icon_2.Image = "rbxassetid://11942988392"
             Gui.Icon_2.ImageColor3 = Color3.fromRGB(100, 100, 100)
             Gui.Icon_2.ScaleType = Enum.ScaleType.Fit
 
@@ -1209,7 +1209,7 @@ local function getObjGen()
             Gui.Watermark.BackgroundTransparency = 1.000
             Gui.Watermark.Size = UDim2.new(0.5, 0, 0.0199999996, 0)
             Gui.Watermark.Font = Enum.Font.Gotham
-            Gui.Watermark.Text = "hydrahub v2 | nil | nil"
+            Gui.Watermark.Text = "Xynx Hub | nil | nil"
             Gui.Watermark.TextColor3 = Color3.fromRGB(255, 255, 255)
             Gui.Watermark.TextSize = 14.000
             Gui.Watermark.TextStrokeTransparency = 0.800
@@ -1372,7 +1372,7 @@ local function getObjGen()
             Gui.Logo.LayoutOrder = -5
             Gui.Logo.Size = UDim2.new(1, 0, 0.100000001, 0)
             Gui.Logo.ZIndex = 122
-            Gui.Logo.Image = "rbxassetid://8343875413"
+            Gui.Logo.Image = "rbxassetid://11942988392"
             Gui.Logo.ImageColor3 = Color3.fromRGB(134, 142, 255)
             Gui.Logo.ScaleType = Enum.ScaleType.Fit
 
@@ -3265,7 +3265,7 @@ function UILibrary.new(gameName, userId, rank)
     local Drag = Draggable.Drag(window.MainUI, Frame)
 
     --// Customize the GUI
-    window.Watermark.Text = ("hydrahub v2 | %s | %s"):format(userId, gameName)
+    window.Watermark.Text = ("Xynx Hub | %s | %s"):format(userId, gameName)
     local userinfo = window.MainUI.Sidebar.ContentHolder.UserInfo.Content
     userinfo.Rank.Text = rank
     userinfo.Title.Text = userId
