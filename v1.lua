@@ -4286,7 +4286,7 @@ function UILibrary.Section:Toggle(sett, callback)
                 element,
                 TI,
                 {
-                    BackgroundColor3 = Color3.fromRGB(134, 142, 255)
+                    BackgroundColor3 = Color3.fromRGB(190,11,11)
                 }
             ):Play()
         else
