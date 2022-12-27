@@ -1373,13 +1373,13 @@ local function getObjGen()
             Gui.Logo.Size = UDim2.new(1, 0, 0.100000001, 0)
             Gui.Logo.ZIndex = 122
             Gui.Logo.Image = "rbxassetid://11943385161"
-            Gui.Logo.ImageColor3 = Color3.fromRGB(134, 142, 255)
+            Gui.Logo.ImageColor3 = Color3.fromRGB(170, 89, 91)
             Gui.Logo.ScaleType = Enum.ScaleType.Fit
 
             Gui.UIGradient_5.Color =
                 ColorSequence.new {
                 ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)),
-                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(134, 142, 255))
+                ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 89, 91))
             }
             Gui.UIGradient_5.Rotation = 45
             Gui.UIGradient_5.Parent = Gui.Logo
