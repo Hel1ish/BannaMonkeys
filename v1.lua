@@ -892,7 +892,7 @@ local function getObjGen()
             Gui.Icon_2.BackgroundTransparency = 1.000
             Gui.Icon_2.Size = UDim2.new(1, 0, 1, 0)
             Gui.Icon_2.ZIndex = 111
-            Gui.Icon_2.Image = "rbxassetid://11942988392"
+            Gui.Icon_2.Image = "rbxassetid://11946590263"
             Gui.Icon_2.ImageColor3 = Color3.fromRGB(100, 100, 100)
             Gui.Icon_2.ScaleType = Enum.ScaleType.Fit
 
@@ -1372,8 +1372,7 @@ local function getObjGen()
             Gui.Logo.LayoutOrder = -5
             Gui.Logo.Size = UDim2.new(1, 0, 0.100000001, 0)
             Gui.Logo.ZIndex = 122
-            Gui.Logo.Image = "rbxassetid://11943385161"
-            Gui.Logo.ImageColor3 = Color3.fromRGB(170, 89, 91)
+            Gui.Logo.Image = "rbxassetid://11946590263"
             Gui.Logo.ScaleType = Enum.ScaleType.Fit
 
             Gui.UIGradient_5.Color =
