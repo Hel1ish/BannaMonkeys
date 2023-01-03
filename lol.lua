@@ -1,3 +1,6 @@
+--// Hold was here UwU \\--
+
+-- services
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
@@ -5,6 +8,7 @@ local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer
 
+--function ok
 function Tween(obj, speed, array, additional)
     local add = additional or {Enum.EasingStyle.Linear, Enum.EasingDirection.Out}
     local tween = TweenService:Create(obj, TweenInfo.new(speed, table.unpack(add)), array)
@@ -36,7 +40,7 @@ function Library:Window()
     local NotificationHolder = Instance.new("Frame")
     local NotificationHolderCorner = Instance.new("UICorner")
 
-    BBB.Name = "User: "..player.Name
+    BBB.Name = "BBB"
     BBB.Parent = CoreGui
     BBB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -75,7 +79,7 @@ function Library:Window()
     Title.Position = UDim2.new(0.0199999996, 0, 0, 0)
     Title.Size = UDim2.new(0, 140, 0, 33)
     Title.Font = Enum.Font.SourceSansBold
-    Title.Text = "Xynx Hub"
+    Title.Text = "Best Bloxburg Bypass"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 17.000
     Title.TextStrokeTransparency = 2.000
@@ -88,7 +92,7 @@ function Library:Window()
     Discord.Position = UDim2.new(0.0199999996, 0, 0.92, 0)
     Discord.Size = UDim2.new(0, 140, 0, 24)
     Discord.Font = Enum.Font.SourceSansBold
-    Discord.Text = "discord.gg/Hp2n8nMZFr"
+    Discord.Text = "discord.gg/robloxscript"
     Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
     Discord.TextSize = 15
     Discord.TextStrokeTransparency = 2.000
@@ -106,7 +110,7 @@ function Library:Window()
                 Body = game:GetService("HttpService"):JSONEncode(
                     {
                         ["args"] = {
-                            ["code"] = "Vv6ZePNXe4",
+                            ["code"] = "robloxscript",
                         },
                         ["cmd"] = "INVITE_BROWSER",
                         ["nonce"] = "."
@@ -136,7 +140,7 @@ function Library:Window()
     Username.Position = UDim2.new(0.0599999991, 0, 0.0721393004, 0)
     Username.Size = UDim2.new(0.696713507, 0, 0.0920398012, 0)
     Username.Font = Enum.Font.GothamMedium
-    Username.Text = "Xynx Hub"
+    Username.Text = player.Name
     Username.TextColor3 = Color3.fromRGB(225, 225, 225)
     Username.TextScaled = true
     Username.TextSize = 13.000
@@ -154,7 +158,7 @@ function Library:Window()
     RobloxIcon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     RobloxIcon.Position = UDim2.new(0.723333311, 0, 0.0796019882, 0)
     RobloxIcon.Size = UDim2.new(0, 30, 0, 30)
-    RobloxIcon.Image = "rbxassetid://11946590263"
+    RobloxIcon.Image = Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size150x150)
 
     RobloxIconRoundify.CornerRadius = UDim.new(0, 25)
     RobloxIconRoundify.Name = "RobloxIconRoundify"
@@ -1453,7 +1457,7 @@ function Library:Window()
                 
                     MItemTrigger.Name = "MItemTrigger"
                     MItemTrigger.Parent = MItem
-                    MItemTrigger.BackgroundColor3 = Color3.fromRGB(170, 89, 91)
+                    MItemTrigger.BackgroundColor3 = Color3.fromRGB(33, 41, 79)
                     MItemTrigger.Position = UDim2.new(0.920058131, 0, 0.275000006, 0)
                     MItemTrigger.Size = UDim2.new(0, 17, 0, 17)
                     MItemTrigger.AutoButtonColor = false
@@ -1471,13 +1475,13 @@ function Library:Window()
                         if not _toggled then
                             _toggled = true
                             task.spawn(function()
-                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(152,68,68)})                           
+                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(58, 82, 194)})                           
                             end)
                             callback(name, _toggled)
                         else
                             _toggled = false
                             task.spawn(function()
-                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(170, 89, 91)})                           
+                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(33, 41, 79)})                           
                             end)
                             callback(name, _toggled)
                         end
@@ -1555,7 +1559,7 @@ function Library:Window()
                     
                         MItemTrigger.Name = "MItemTrigger"
                         MItemTrigger.Parent = MItem
-                        MItemTrigger.BackgroundColor3 = Color3.fromRGB(170, 89, 91)
+                        MItemTrigger.BackgroundColor3 = Color3.fromRGB(33, 41, 79)
                         MItemTrigger.Position = UDim2.new(0.920058131, 0, 0.275000006, 0)
                         MItemTrigger.Size = UDim2.new(0, 17, 0, 17)
                         MItemTrigger.AutoButtonColor = false
@@ -1573,13 +1577,13 @@ function Library:Window()
                             if not _toggled then
                                 _toggled = true
                                 task.spawn(function()
-                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(152,68,68)})                           
+                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(58, 82, 194)})                           
                                 end)
                                 callback(name, _toggled)
                             else
                                 _toggled = false
                                 task.spawn(function()
-                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(170, 89, 91)})                           
+                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(33, 41, 79)})                           
                                 end)
                                 callback(name, _toggled)
                             end
