@@ -1457,7 +1457,7 @@ function Library:Window()
                 
                     MItemTrigger.Name = "MItemTrigger"
                     MItemTrigger.Parent = MItem
-                    MItemTrigger.BackgroundColor3 = Color3.fromRGB(33, 41, 79)
+                    MItemTrigger.BackgroundColor3 = Color3.fromRGB(255, 138, 101)
                     MItemTrigger.Position = UDim2.new(0.920058131, 0, 0.275000006, 0)
                     MItemTrigger.Size = UDim2.new(0, 17, 0, 17)
                     MItemTrigger.AutoButtonColor = false
@@ -1475,13 +1475,13 @@ function Library:Window()
                         if not _toggled then
                             _toggled = true
                             task.spawn(function()
-                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(58, 82, 194)})                           
+                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 87, 34)})                           
                             end)
                             callback(name, _toggled)
                         else
                             _toggled = false
                             task.spawn(function()
-                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(33, 41, 79)})                           
+                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 138, 101)})                           
                             end)
                             callback(name, _toggled)
                         end
@@ -1559,7 +1559,7 @@ function Library:Window()
                     
                         MItemTrigger.Name = "MItemTrigger"
                         MItemTrigger.Parent = MItem
-                        MItemTrigger.BackgroundColor3 = Color3.fromRGB(33, 41, 79)
+                        MItemTrigger.BackgroundColor3 = Color3.fromRGB(255, 138, 101)
                         MItemTrigger.Position = UDim2.new(0.920058131, 0, 0.275000006, 0)
                         MItemTrigger.Size = UDim2.new(0, 17, 0, 17)
                         MItemTrigger.AutoButtonColor = false
@@ -1577,13 +1577,13 @@ function Library:Window()
                             if not _toggled then
                                 _toggled = true
                                 task.spawn(function()
-                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(58, 82, 194)})                           
+                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 87, 34)})
                                 end)
                                 callback(name, _toggled)
                             else
                                 _toggled = false
                                 task.spawn(function()
-                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(33, 41, 79)})                           
+                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 138, 101)})
                                 end)
                                 callback(name, _toggled)
                             end
