@@ -465,7 +465,7 @@ function Library:Window()
 
         Tab.Name = "Tab"
         Tab.Parent = TabHolder
-        Tab.BackgroundColor3 = Color3.fromRGB(255, 138, 101)
+        Tab.BackgroundColor3 = Color3.fromRGB(255, 112, 67)
         Tab.Position = UDim2.new(0.0370370373, 0, 0, 0)
         Tab.Size = UDim2.new(0, 125, 0, 37)
 
@@ -525,7 +525,7 @@ function Library:Window()
             for i, v in next, TabHolder:GetChildren() do
                 if not v:IsA("UIListLayout") and v ~= Tab then
                     task.spawn(function()
-                        Tween(v, 0.2, {BackgroundColor3 = Color3.fromRGB(255, 138, 101)})
+                        Tween(v, 0.2, {BackgroundColor3 = Color3.fromRGB(255, 112, 67)})
                     end)
                 end
             end
@@ -763,7 +763,7 @@ function Library:Window()
 
                 SliderOut.Name = "SliderOut"
                 SliderOut.Parent = Slider
-                SliderOut.BackgroundColor3 = Color3.fromRGB(38, 47, 91)
+                SliderOut.BackgroundColor3 = Color3.fromRGB(255, 112, 67)
                 SliderOut.Position = UDim2.new(0.0209999997, 0, 0.5, 0)
                 SliderOut.Size = UDim2.new(0, 356, 0, 32)
 
@@ -1457,7 +1457,7 @@ function Library:Window()
                 
                     MItemTrigger.Name = "MItemTrigger"
                     MItemTrigger.Parent = MItem
-                    MItemTrigger.BackgroundColor3 = Color3.fromRGB(255, 138, 101)
+                    MItemTrigger.BackgroundColor3 = Color3.fromRGB(255, 112, 67)
                     MItemTrigger.Position = UDim2.new(0.920058131, 0, 0.275000006, 0)
                     MItemTrigger.Size = UDim2.new(0, 17, 0, 17)
                     MItemTrigger.AutoButtonColor = false
@@ -1481,7 +1481,7 @@ function Library:Window()
                         else
                             _toggled = false
                             task.spawn(function()
-                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 138, 101)})                           
+                                Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 112, 67)})                           
                             end)
                             callback(name, _toggled)
                         end
@@ -1559,7 +1559,7 @@ function Library:Window()
                     
                         MItemTrigger.Name = "MItemTrigger"
                         MItemTrigger.Parent = MItem
-                        MItemTrigger.BackgroundColor3 = Color3.fromRGB(255, 138, 101)
+                        MItemTrigger.BackgroundColor3 = Color3.fromRGB(255, 112, 67)
                         MItemTrigger.Position = UDim2.new(0.920058131, 0, 0.275000006, 0)
                         MItemTrigger.Size = UDim2.new(0, 17, 0, 17)
                         MItemTrigger.AutoButtonColor = false
@@ -1583,7 +1583,7 @@ function Library:Window()
                             else
                                 _toggled = false
                                 task.spawn(function()
-                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 138, 101)})
+                                    Tween(MItemTrigger, 0.14, {BackgroundColor3 = Color3.fromRGB(255, 112, 67)})
                                 end)
                                 callback(name, _toggled)
                             end
