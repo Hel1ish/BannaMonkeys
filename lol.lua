@@ -259,7 +259,7 @@ function Library:Window()
         for i, v in next, TabHolder:GetChildren() do
             if i == index + 1 then
                 task.spawn(function()
-                    Tween(v, 0.2, {BackgroundColor3 = Color3.fromRGB(70, 85, 165)})
+                    Tween(v, 0.2, {BackgroundColor3 = Color3.fromRGB(255, 87, 34)})
                 end)
             end
         end
@@ -465,7 +465,7 @@ function Library:Window()
 
         Tab.Name = "Tab"
         Tab.Parent = TabHolder
-        Tab.BackgroundColor3 = Color3.fromRGB(50, 60, 110)
+        Tab.BackgroundColor3 = Color3.fromRGB(255, 138, 101)
         Tab.Position = UDim2.new(0.0370370373, 0, 0, 0)
         Tab.Size = UDim2.new(0, 125, 0, 37)
 
@@ -525,7 +525,7 @@ function Library:Window()
             for i, v in next, TabHolder:GetChildren() do
                 if not v:IsA("UIListLayout") and v ~= Tab then
                     task.spawn(function()
-                        Tween(v, 0.2, {BackgroundColor3 = Color3.fromRGB(50, 60, 110)})
+                        Tween(v, 0.2, {BackgroundColor3 = Color3.fromRGB(255, 138, 101)})
                     end)
                 end
             end
@@ -535,7 +535,7 @@ function Library:Window()
                 end
             end
             task.spawn(function()
-                Tween(Tab, 0.2, {BackgroundColor3 = Color3.fromRGB(70, 85, 165)})
+                Tween(Tab, 0.2, {BackgroundColor3 = Color3.fromRGB(255, 87, 34)})
             end)
             Page.Visible = true
         end)
@@ -592,7 +592,7 @@ function Library:Window()
 
                 Button.Name = "Button"
                 Button.Parent = Section
-                Button.BackgroundColor3 = Color3.fromRGB(70, 85, 165)
+                Button.BackgroundColor3 = Color3.fromRGB(255, 87, 34)
                 Button.Position = UDim2.new(0.0306122452, 0, 0.239263803, 0)
                 Button.Size = UDim2.new(0, 373, 0, 42)
             
@@ -702,7 +702,7 @@ function Library:Window()
 
                 if toggled then
                     ToggleInner.Position = UDim2.new(0.629999982, 0, 0.150000006, 0)
-                    ToggleOut.BackgroundColor3 = Color3.fromRGB(70, 85, 165)
+                    ToggleOut.BackgroundColor3 = Color3.fromRGB(255, 87, 34)
                 end
 
                 ToggleTrigger.MouseButton1Click:Connect(function()
@@ -714,7 +714,7 @@ function Library:Window()
                         task.spawn(function()
                             Tween(ToggleInner, 0.2, {Position = UDim2.new(0.629999982, 0, 0.150000006, 0)})
                         end)
-                        Tween(ToggleOut, 0.2, {BackgroundColor3 = Color3.fromRGB(70, 85, 165)})
+                        Tween(ToggleOut, 0.2, {BackgroundColor3 = Color3.fromRGB(255, 87, 34)})
                     end
                     if not toggled then
                         task.spawn(function()
@@ -772,7 +772,7 @@ function Library:Window()
 
                 SliderIn.Name = "SliderIn"
                 SliderIn.Parent = SliderOut
-                SliderIn.BackgroundColor3 = Color3.fromRGB(70, 85, 165)
+                SliderIn.BackgroundColor3 = Color3.fromRGB(255, 87, 34)
                 SliderIn.BorderSizePixel = 0
                 SliderIn.Size = UDim2.new(0, 178, 0, 32)
 
