@@ -1,6 +1,3 @@
---// Hold was here UwU \\--
-
--- services
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
@@ -8,7 +5,6 @@ local Players = game:GetService("Players")
 
 local player = Players.LocalPlayer
 
---function ok
 function Tween(obj, speed, array, additional)
     local add = additional or {Enum.EasingStyle.Linear, Enum.EasingDirection.Out}
     local tween = TweenService:Create(obj, TweenInfo.new(speed, table.unpack(add)), array)
@@ -79,7 +75,7 @@ function Library:Window()
     Title.Position = UDim2.new(0.0199999996, 0, 0, 0)
     Title.Size = UDim2.new(0, 140, 0, 33)
     Title.Font = Enum.Font.SourceSansBold
-    Title.Text = "Best Bloxburg Bypass"
+    Title.Text = "Xynx | Bloxburg"
     Title.TextColor3 = Color3.fromRGB(255, 255, 255)
     Title.TextSize = 17.000
     Title.TextStrokeTransparency = 2.000
@@ -92,7 +88,7 @@ function Library:Window()
     Discord.Position = UDim2.new(0.0199999996, 0, 0.92, 0)
     Discord.Size = UDim2.new(0, 140, 0, 24)
     Discord.Font = Enum.Font.SourceSansBold
-    Discord.Text = "discord.gg/robloxscript"
+    Discord.Text = "Join discord"
     Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
     Discord.TextSize = 15
     Discord.TextStrokeTransparency = 2.000
@@ -110,7 +106,7 @@ function Library:Window()
                 Body = game:GetService("HttpService"):JSONEncode(
                     {
                         ["args"] = {
-                            ["code"] = "robloxscript",
+                            ["code"] = "ZgPjZxbcdc",
                         },
                         ["cmd"] = "INVITE_BROWSER",
                         ["nonce"] = "."
