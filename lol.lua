@@ -893,7 +893,7 @@ function Library:Window()
                 TextboxTyper.Position = UDim2.new(0.040214479, 0, 0.458333343, 0)
                 TextboxTyper.Size = UDim2.new(0, 342, 0, 33)
                 TextboxTyper.Font = Enum.Font.Gotham
-                TextboxTyper.PlaceholderColor3 = Color3.fromRGB(108, 133, 255)
+                TextboxTyper.PlaceholderColor3 = Color3.fromRGB(255, 87, 34)
                 TextboxTyper.PlaceholderText = placeholder or "..."
                 TextboxTyper.Text = ""
                 TextboxTyper.TextColor3 = Color3.fromRGB(230, 230, 230)
@@ -971,7 +971,7 @@ function Library:Window()
                 DropdownValue.Position = UDim2.new(0.517426252, 0, 0.172619045, 0)
                 DropdownValue.Size = UDim2.new(0, 166, 0, 30)
                 DropdownValue.Font = Enum.Font.Gotham
-                DropdownValue.PlaceholderColor3 = Color3.fromRGB(108, 133, 255)
+                DropdownValue.PlaceholderColor3 = Color3.fromRGB(255, 87, 34)
                 DropdownValue.Text = "..."
                 DropdownValue.TextColor3 = Color3.fromRGB(230, 230, 230)
                 DropdownValue.TextScaled = true
